@@ -25,7 +25,7 @@ def receive_data():
 # 主程式
 try:
     while True:
-        send_data("Hello from Raspberry Pi!\n")
+        send_data("Happy 30th Anniversary, Pokemon!\n")
         time.sleep(1)
         receive_data()
         time.sleep(1)
